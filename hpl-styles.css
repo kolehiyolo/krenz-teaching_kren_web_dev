@@ -1,0 +1,79 @@
+.male {
+  background-color: rgb(0, 132, 255);
+}
+
+.female {
+  background-color: rgb(255, 105, 205);
+}
+
+#grafic-masters p {
+  /* width: 700px; */
+  color: white;
+  font-family: monospace;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  margin: 0px;
+  border: solid black 1px;
+}
+
+#grafic-masters {
+  border: dashed 1px red;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+
+  justify-content: flex-start;
+  /* align-items: center; */
+}
+
+#gm-003 {
+  flex-grow: 1;
+}
+
+#gm-004 {
+  flex-grow: 1;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main {
+  flex-grow: 1;
+}
+
+/* .ad {
+  font-size: 100px;
+}
+
+.tl {
+  font-size: 80px;
+}
+
+.atl {
+  font-size: 50px;
+}
+
+.s {
+  font-size: 30px;
+}
+
+.j {
+  font-size: 15px;
+} */
+
+.otaku {
+  text-decoration: underline;
+}
+
+#gm-004 {
+  text-transform: uppercase;
+}
+
+.main {
+  background-color: grey;
+}

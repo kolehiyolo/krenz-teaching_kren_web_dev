@@ -1,25 +1,22 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  border: dashed 1px red;
+#mushrooms-title {
+  color: brown;
+  width: 500px;
+  height: 300px;
+  background-color: red;
 }
 
-body {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  min-height: 100vh;
+#trees-title {
+  color: green;
 }
 
-.header {
-
+.title {
+  font-family: monospace;
 }
 
-.main {
-
+img {
+  width: 500px;
 }
 
-.footer {
-
+.tae {
+  border: dotted 50px green;
 }
